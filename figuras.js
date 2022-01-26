@@ -10,7 +10,9 @@ console.log(`El lado mide ${ladoCuadrado} cm`); */
 //const peritroCuadrado = ladoCuadrado * 4;
 
 function perimetroCuadrado(lado) {
-  return lado * 4;
+  const input = document.getElementById("InputCuadrado");
+  const value = input.value;
+  const perimetro = perimetroCuadrado(value);
 }
 
 //console.log(`El perímetro del cuadrado es ${peritroCuadrado} cm`);
